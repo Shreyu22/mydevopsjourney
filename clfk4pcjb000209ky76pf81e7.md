@@ -40,19 +40,19 @@ Both **#!/bin/bash** and **#!/bin/sh** are called shebangs and are used to speci
 
 In summary, if you want to use Bash-specific features in your script, you should use #!/bin/bash. However, if your script only uses standard POSIX shell features, you can use #!/bin/sh for improved portability.
 
-### ✅Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+### ✅Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge` ?
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679515303194/12f41de0-33bb-4bb1-a21e-eb62ce62fb65.png align="left")
 
 Key Syntax for the execution access : <mark>chmod a+x filename.sh</mark>
 
-### ✅Write a Shell Script to take user input, input from arguments and print the variables.
+### ✅Write a Shell Script to take user input, input from arguments and print the variables?
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679515445145/a3ef850c-1d05-40f7-96a7-27072d583297.png align="left")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679515460970/f5ff14bf-069f-4eef-9b45-278bd0cd2c64.png align="left")
 
-### ✅Write an Example of If else in Shell Scripting by comparing 2 numbers
+### ✅Write an Example of If else in Shell Scripting by comparing 2 numbers ?
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679515755520/7ce663b5-b559-4bff-95b7-685f2799e903.png align="left")
 
