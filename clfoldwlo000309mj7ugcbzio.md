@@ -77,15 +77,14 @@ Here, hello-world is the docker image present on the Docker hub.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679770582060/fa4328eb-c0a3-4605-9e66-5030aaaa5709.png align="center")
     
-    1. To check for containers in a running state, use the following command:
-        
+3. To check for containers in a running state, use the following command:
     
     command : $ <mark>sudo docker ps</mark>
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679770625345/8339dbcc-530f-4fb3-b7cb-1d945e3e205b.png align="center")
 
-You’ve just successfully installed Docker on Ubuntu!
+***You’ve just successfully installed Docker on Ubuntu!***
 
 ### ✔️Jenkins Installation - Complete step by step Guide
 
@@ -125,50 +124,46 @@ Commands : <mark>sudo apt-cache search openjdk</mark>
     
     command : <mark>sudo apt update</mark>
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679771432349/8de67d6b-09f4-44eb-be98-e283f50b1b1e.png align="center")
-
-1. 1. Finally, we’ll install Jenkins and its dependencies.
-        
-        commands : <mark>sudo apt install jenkins</mark>
-        
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679772155901/e5ac06f6-c121-4323-a34b-0a6276ac6480.png align="center")
-
-1. Let’s start Jenkins by using [`systemctl`](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units):
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679771432349/8de67d6b-09f4-44eb-be98-e283f50b1b1e.png align="center")
+    
+4. Finally, we’ll install Jenkins and its dependencies.
+    
+    commands : <mark>sudo apt install jenkins</mark>
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679772155901/e5ac06f6-c121-4323-a34b-0a6276ac6480.png align="center")
+    
+5. Let’s start Jenkins by using [`systemctl`](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units):
     
     command : <mark>sudo systemctl start jenkins</mark>
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679773314506/e38aff72-e87a-456b-9d20-9cadd1832c79.png align="center")
-
-1. Since `systemctl` doesn’t display status output, we’ll use the `status` command to verify that Jenkins started successfully:
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679773314506/e38aff72-e87a-456b-9d20-9cadd1832c79.png align="center")
+    
+6. Since `systemctl` doesn’t display status output, we’ll use the `status` command to verify that Jenkins started successfully:
     
 
 Command : <mark>sudo systemctl status jenkins</mark>
 
-1. If everything went well, the beginning of the status output shows that the service is active and configured to start at boot:
-    
+If everything went well, the beginning of the status output shows that the service is active and configured to start at boot:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679773574336/07699d9b-cf0d-48bf-8376-e015e3a9b289.png align="center")
 
-1. ## Opening the Firewall
+1. Opening the Firewall
     
     command : <mark>sudo ufw allow 8080</mark>
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679774035813/966e6d64-c8d5-47c1-8cf2-390737c451d9.png align="left")
-
-1. If the status is inactive, as shown in the below screenshot, use the commands : <mark>sudo ufw allow OpenSSH</mark>
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679774035813/966e6d64-c8d5-47c1-8cf2-390737c451d9.png align="left")
+    
+2. To check the status use the below command : <mark>sudo ufw status</mark>
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679774116390/76c453b3-5e37-43c7-a949-2f8f42710e70.png align="left")
+    
+3. If the status is inactive, as shown in the below screenshot, use the commands : <mark>sudo ufw allow OpenSSH</mark>
     
     <mark>sudo ufw enable</mark>
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679774116390/76c453b3-5e37-43c7-a949-2f8f42710e70.png align="left")
-
-1. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679784275702/5dec9281-95d8-4443-af28-14808cd5784b.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679784275702/5dec9281-95d8-4443-af28-14808cd5784b.png align="center")
     
-    sudo ufw allow OpenSSH sudo ufw enableCheck `ufw`’s status to confirm the new rules:
+4. sudo ufw allow OpenSSH sudo ufw enableCheck `ufw`’s status to confirm the new rules:
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679774415472/106cf41f-bf28-4cd5-85bb-977babe376ae.png align="center")
