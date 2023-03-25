@@ -4,7 +4,6 @@ datePublished: Sat Mar 25 2023 13:06:01 GMT+0000 (Coordinated Universal Time)
 cuid: clfnzionk000109jybyq2cg99
 slug: file-permissions-and-access-control-lists
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679749526352/cf71770f-7e85-448d-b232-92c365b37134.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1679749546465/da994d3a-a1f3-4e94-a5d7-ef7cf7453d36.png
 
 ---
 
