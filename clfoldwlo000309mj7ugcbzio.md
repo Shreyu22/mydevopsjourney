@@ -87,8 +87,7 @@ Here, hello-world is the docker image present on the Docker hub.
 
 You’ve just successfully installed Docker on Ubuntu!
 
-###   
-✔️Jenkins Installation - Complete step by step Guide
+### ✔️Jenkins Installation - Complete step by step Guide
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679782256267/0c9b58f3-ada6-40db-a6fe-bbdbe562ec37.png align="center")
 
@@ -110,7 +109,7 @@ Commands : <mark>sudo apt-cache search openjdk</mark>
 
 1. add the repository key to the system:
     
-    command : <mark>wget -q -O - </mark> [<mark>https://pkg.jenkins.io/debian-stable/jenkins.io.key</mark>](https://pkg.jenkins.io/debian-stable/jenkins.io.key) <mark> | sudo apt-key add -</mark>
+    command : <mark>wget -q -O - </mark> [<mark>https://pkg.jenkins.io/debian-stable/jenkins.io.key</mark>](https://pkg.jenkins.io/debian-stable/jenkins.io.key) <mark>| sudo apt-key add -</mark>
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679771990047/5af35fc9-9850-41f7-9372-b073127ee9d5.png align="center")
     
@@ -118,13 +117,13 @@ Commands : <mark>sudo apt-cache search openjdk</mark>
     
     Next, let’s append the Debian package repository address to the server’s `sources.list`:
     
-    command : <mark>sudo sh -c 'echo deb </mark> [<mark>http://pkg.jenkins.io/debian-stable</mark>](http://pkg.jenkins.io/debian-stable) <mark> binary/ &gt; /etc/apt/sources.list.d/jenkins.list'</mark>
+    command : <mark>sudo sh -c 'echo deb </mark> [<mark>http://pkg.jenkins.io/debian-stable</mark>](http://pkg.jenkins.io/debian-stable) <mark>binary/ &gt; /etc/apt/sources.list.d/jenkins.list'</mark>
     
 3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679772016701/5a46debd-d166-4b76-87e4-76a5363545b2.png align="center")
     
     After both commands have been entered, we’ll run `update` so that `apt` will use the new repository.
     
-    command : <mark> sudo apt update</mark>
+    command : <mark>sudo apt update</mark>
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679771432349/8de67d6b-09f4-44eb-be98-e283f50b1b1e.png align="center")
@@ -220,7 +219,7 @@ command : <mark>sudo systemctl status jenkins</mark>
 
 1. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679779110767/ef1e9167-fb70-42aa-9564-2a768216db9a.png align="center")
     
-    To stop the Jenkins service, you can use the following command in the terminal: <mark> sudo systemctl stop jenkins</mark>
+    To stop the Jenkins service, you can use the following command in the terminal: <mark>sudo systemctl stop jenkins</mark>
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679780458473/3f86bcbe-321f-4b5f-93b1-617ed7697214.png align="center")
     
