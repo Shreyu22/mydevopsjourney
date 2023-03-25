@@ -212,30 +212,30 @@ To check the status
 
 command : <mark>sudo systemctl status jenkins</mark>
 
-1. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679779110767/ef1e9167-fb70-42aa-9564-2a768216db9a.png align="center")
-    
-    To stop the Jenkins service, you can use the following command in the terminal: <mark>sudo systemctl stop jenkins</mark>
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679780458473/3f86bcbe-321f-4b5f-93b1-617ed7697214.png align="center")
-    
-    ### ✔️Read about the commands systemctl vs service
-    
-    **💡systemctl :**
-    
-    The systemctl command **manages both system and service configurations, enabling administrators to manage the OS and control the status of services**. Further, systemctl is useful for troubleshooting and basic performance tuning.
-    
-    Example: <mark>systemctl status docker</mark>
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679779647320/bbf35890-5cec-4e28-860b-565507198bcc.png align="center")
-    
-    **💡Service :**
-    
-    The service command **starts, stop and restart a daemon or services by calling the script**. Usually all scripts are stored in /etc/init. d directory. It runs a script in as predictable environment as possible.
-    
-    Example : <mark>service docker status</mark>
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679780514536/b3561bd3-fef0-4c23-936f-e603b0646c20.png align="center")
-    
-    **Conclusion : systemctl is basically a more powerful version of service**.
-    
-    With service you can only do commands related to the service (i.e. status, reload, restart) whereas with systemctl you can use more advanced commands.
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679779110767/ef1e9167-fb70-42aa-9564-2a768216db9a.png align="center")
+
+To stop the Jenkins service, you can use the following command in the terminal: <mark>sudo systemctl stop jenkins</mark>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679780458473/3f86bcbe-321f-4b5f-93b1-617ed7697214.png align="center")
+
+### ✔️Read about the commands systemctl vs service
+
+**💡systemctl :**
+
+The systemctl command **manages both system and service configurations, enabling administrators to manage the OS and control the status of services**. Further, systemctl is useful for troubleshooting and basic performance tuning.
+
+Example: <mark>systemctl status docker</mark>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679779647320/bbf35890-5cec-4e28-860b-565507198bcc.png align="center")
+
+**💡Service :**
+
+The service command **starts, stop and restart a daemon or services by calling the script**. Usually all scripts are stored in /etc/init. d directory. It runs a script in as predictable environment as possible.
+
+Example : <mark>service docker status</mark>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679780514536/b3561bd3-fef0-4c23-936f-e603b0646c20.png align="center")
+
+**Conclusion : systemctl is basically a more powerful version of service**.
+
+With service you can only do commands related to the service (i.e. status, reload, restart) whereas with systemctl you can use more advanced commands.
